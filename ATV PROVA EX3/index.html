@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Orçamento de Serviços</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Orçamento de Serviços</h1>
+  <form id="form-orcamento">
+    <input type="text" id="servico" placeholder="Nome do serviço" required />
+    <input type="number" id="valor" placeholder="Valor (R$)" required />
+    <button type="submit">Adicionar</button>
+  </form>
+  
+  <ul id="lista-servicos"></ul>
+  <h3>Total: R$ <span id="total">0.00</span></h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
